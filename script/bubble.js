@@ -1,6 +1,6 @@
 async function bubble() {
     disable();
-    document.getElementById("cmp").innerHTML += " O(n^2)"; 
+    document.getElementById("cmp").innerHTML = " O(n^2)"; 
     let bars = document.querySelectorAll(".bar");
     for (let i = 0; i < bars.length; i += 1) {
         for (let j = 0; j < bars.length - i - 1; j += 1) {
