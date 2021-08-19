@@ -73,7 +73,7 @@ async function quicksort(l,r){
 async function quick() {
     let bars = document.querySelectorAll(".bar");
     disable();
-    document.getElementById("cmp").innerHTML += " O(n log n)";
+    document.getElementById("cmp").innerHTML = " O(n log n)";
     quicksort(0, bars.length - 1);
 }
 //Made by: Pranay Prasad
