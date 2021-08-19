@@ -15,6 +15,7 @@ rang.addEventListener('input',function () {
 })
 const container = document.querySelector(".container");
 function genratebars(num = 50){
+    document.getElementById("cmp").innerHTML = " ";
     deleteChild();
     for(let i = 0; i < num;i++){
         const value = Math.floor(Math.random() * 120) + 1;
