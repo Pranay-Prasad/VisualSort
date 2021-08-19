@@ -28,7 +28,7 @@ async function heapify(n, i) {
 }
 async function heap() {
     disable();
-    document.getElementById("cmp").innerHTML += " O(n log n)";
+    document.getElementById("cmp").innerHTML = " O(n log n)";
     var bars = document.querySelectorAll(".bar");
     let n = bars.length;
     for (var i = n / 2 - 1; i >= 0; i--) {
