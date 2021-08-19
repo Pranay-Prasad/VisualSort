@@ -1,6 +1,6 @@
 async function selection() {
     disable();
-    document.getElementById("cmp").innerHTML += " O(n^2)";
+    document.getElementById("cmp").innerHTML = " O(n^2)";
     let bars = document.querySelectorAll(".bar");
     var min_i = 0;
     for (var i = 0; i < bars.length; i += 1) {
